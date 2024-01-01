@@ -2,7 +2,7 @@
 
 
 """A type annotated 'make_multiplier' functino"""
-from collections.abc import Callable
+from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
